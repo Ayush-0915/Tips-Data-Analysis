@@ -50,9 +50,9 @@ If you just want to run a quick check from a Python REPL or a script to ensure t
 import pandas as pd
 
 df = pd.read_csv('tips.csv')
-print(df.shape)
-print(df.dtypes)
-print(df.head())
+print(tips.shape)
+print(tips.dtypes)
+print(tips.head())
 ```
 
 ## Notes & next steps
@@ -65,5 +65,6 @@ print(df.head())
 This repository was prepared as a small demo. If you want improvements (tests, CI, `requirements.txt`, or dataset documentation), open an issue or add a PR.
 
 ---
+
 
 Enjoy exploring `tips`!
